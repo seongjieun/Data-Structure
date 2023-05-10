@@ -1,4 +1,4 @@
-#Postorder Traversal (LCR)
+#Postorder Traversal (LRC)
 
 void Postorder(BTreeNode* root)
 {
