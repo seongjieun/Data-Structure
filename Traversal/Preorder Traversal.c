@@ -1,4 +1,4 @@
-#Preorder Traversal (
+#Preorder Traversal (CLR)
 
 void Preorder(BTreeNode *root)
 {
