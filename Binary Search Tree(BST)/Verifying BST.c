@@ -1,3 +1,4 @@
+//bst
 //Initailize the minimum ans maximum as INT_MIN and INT_MAX
 bool Verify(BSTNode *root, int min, int max){
   if(root!=NULL){
