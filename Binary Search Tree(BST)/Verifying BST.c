@@ -7,7 +7,7 @@ bool Verify(BSTNode *root, int min, int max){
       return false;
     else
       //Check the subtrees with the min/max constraints.
-      return Verify(root->left_child, min, root->key)&&Verify(root->right_child,root->key,max);
+      return Verify(root->left_child,min,root->key)&&Verify(root->right_child,root->key,max);
   }
   else
      return true; //an empty tree is BST.
