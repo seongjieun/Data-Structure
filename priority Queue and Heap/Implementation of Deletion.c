@@ -1,6 +1,6 @@
 Data Delete(Heap *pheap){
   Data max=pheap->items[1].data; // root node 접근(배열의 1번 index니까)
-  HNode last = pheap->items[pheap->num]; //last node 접근
+  HNode last=pheap->items[pheap->num]; //last node 접근
   int parent=1, child;
   //Compare the root with its child nodes.
   while(child=GetHighPriorityChild(pheap, parent)){ //자식 중에 큰 값을 가져온다는 함수
